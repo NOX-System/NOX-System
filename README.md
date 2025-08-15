@@ -1,33 +1,53 @@
-# NỌX System — Official Organization
+# NỌX
 
-Welcome to the official GitHub organization for **NỌX** — the Global Decentralized Communication System focused on privacy, minimal data, and resistance to tracking.
+**A global decentralized communication system** focused on privacy, minimal data, and resistance to tracking.
 
----
+## Core Principles
+- **No user identification**
+- **No logs or history**
+- **No terms or payments**
+- **Decentralized architecture**
+- **Tracking protection** at all levels
 
-## 📂 Main Repositories
+## Purpose
+NỌX is designed for secure exchange of messages and data without reliance on central servers or intermediaries.
 
-- **[NOX](https://github.com/nox-system/NOX)**  
-  Core repository containing the NỌX system documentation, declarations, and official releases.  
-  Includes notarized **Authorship Declaration** and verification files (SHA-256).
+## Current Status
+The project is under active development.  
+Official website: **https://noxsystem.net**
 
-- **[nox-system.github.io](https://github.com/nox-system/nox-system.github.io)** *(optional)*  
-  Public website for the organization (if enabled). Could be used for hosting project info and public demos.
+## License
+This project is licensed under the **GNU Affero General Public License v3.0 (AGPLv3)**  
+with additional **NỌX Addendum** conditions.
 
----
-
-## 📜 Official Declaration
-
-The notarized **Authorship Declaration** for NỌX can be found in the main [NOX](https://github.com/NOX-System/NOX) repository.  
-It includes:
-- PDF version of the declaration
-- Machine-readable SHA-256 checksum file
-- Human-readable verification instructions
-
----
-
-## 🌐 Official Website
-**https://noxsystem.net**  
+- **Full license text**: See the `LICENSE` file.  
+- **Additional NỌX conditions**: See the `LICENSE_NOX_ADDENDUM.txt` file.
 
 ---
 
-> **Note:** The name **NỌX** is always written with a dot under the "O" (Ọ) in all official contexts, except in technical cases where Unicode limitations apply (e.g., file names, repository names).
+## Notarized Authorship Declaration
+
+For public verification of authorship of the **NỌX** project, a notarized and anonymized declaration has been published.
+
+- 📄 [NOX_Authorship_Declaration.pdf](https://github.com/NOX-System/nox-authorship/blob/main/NOX_Authorship_Declaration.pdf) — official anonymized notarized declaration  
+- 🔐 [NOX_Authorship_Declaration.sha256](https://github.com/NOX-System/nox-authorship/blob/main/NOX_Authorship_Declaration.sha256) — SHA-256 checksum (technical format for automated verification)  
+- 📝 [NOX_Authorship_Declaration_HASH.md](https://github.com/NOX-System/nox-authorship/blob/main/NOX_Authorship_Declaration_HASH.md) — SHA-256 checksum with verification instructions for Linux, macOS, and Windows
+
+**Verify the PDF integrity:**
+
+**Linux / macOS**
+```bash
+sha256sum -c NOX_Authorship_Declaration.sha256
+```
+
+**macOS (alternative built-in tool)**
+```bash
+shasum -a 256 -c NOX_Authorship_Declaration.sha256
+```
+
+**Windows PowerShell**
+```powershell
+Get-FileHash NOX_Authorship_Declaration.pdf -Algorithm SHA256
+```
+
+©️ NỌX System. All rights reserved where applicable.
